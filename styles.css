@@ -281,11 +281,14 @@ div.cards div.card span.tag-project {
     /* fixed header height*/
 }
 
+
+
+
 article {
-    width: 80%;
+    width: 90%;
     background-color: rgb(37, 37, 37);
     position: relative;
-    margin-bottom:100vw;
+    margin-bottom:200vw;
     margin-top: 150vw;
     text-align:center;
 
@@ -304,16 +307,17 @@ article p {
     font-size: 2vw;
     width: 90%;
     margin-left: 5%; 
+    margin-top: 1vw;
 
 }
 
 
 article img{
-    border: 1vw solid rgb(35, 35, 35);
-    width: 90%;
-    margin-top: 1vw;
+    width: 100%;
+    margin-top: 2vw;
     position: relative;
     bottom: 1vw;
+
 }
 
 article h3 {
@@ -357,7 +361,6 @@ article div.goto-top a {
 
 td{
     border: 1vw solid var(--yellow);
-    padding: 1%;
     text-align: left;
     width: 30%;
 
@@ -368,5 +371,4 @@ td{
     width: 70%;
      border: 1vw solid var(--gray-0);
     padding: 1%;
-        font-size: .5vw; }
-
+    font-size: .5vw; }
