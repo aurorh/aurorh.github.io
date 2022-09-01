@@ -346,10 +346,11 @@ article div.goto-top a {
     left: 15%;
     position: absolute;
     border: var(--yellow) solid;
-    border-radius: 2vw;
+    border-radius: .5vw;
     background-color: var(--gray-400);
-    width: 10%;
+    width: 11%;
     font-size: 1.5vw;
+    line-height: 2vw;
     color: var(--yellow);
     margin-top: 2vw;
 }
