@@ -128,7 +128,7 @@ text-align:center;
 margin-top:0;
 margin-bottom: 20vw;
 position:absolute;
-height: 75vw;
+height: 50vw;
 background-color:var(--gray-400);
 left:0;
 }
@@ -195,10 +195,10 @@ section.about-me p {
 
 
 section.projects {
-    width:60%;
+    width:65%;
     position: absolute;
     text-align:center;
-    right:20vw;
+    right:18vw;
     align-items: center;
     margin-bottom: 10vw;
     top: 50vw;
@@ -223,16 +223,18 @@ section.projects h1 {
 }
 
 div.cards {
-    display: flex;
+    display:flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 2vw;
+    gap: 3vw;
+    column-count:2;
+    flex-direction:row;
 
 }
 
 div.card {
-    width: 29vw;
-    height: 35vw;
+    width: 30vw;
+    height: 36vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -258,10 +260,11 @@ div.cards div.card div.description-project {
     align-items: flex-start;
 }
 
-div.cards div.card div.description-project span.title-project {
+div.cards div.card div.description-project span.title-project a {
     font-size: 2vw;
     font-weight: 500;
     margin-bottom: 1vw;
+    text-align:center;
 }
 
 div.cards div.card span.tag-project {
